@@ -24,7 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "seed": "node src/seed.js",
-    "parcel": "parcel build ./src/index.tsx --dist-dir docs --public-url ./ ",
+    "parcel": "parcel build ./src/index.html --dist-dir docs --public-url ./ ",
     "clean": "del-cli ./.parcel-cache ./docs ./dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
